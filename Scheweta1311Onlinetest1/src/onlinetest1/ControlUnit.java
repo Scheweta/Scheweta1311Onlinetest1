@@ -10,7 +10,7 @@ public class ControlUnit {
 	
 	
 	public boolean permitVote(){
-		
+		bs.pressBallotButton();
 		return true;
 	}
 

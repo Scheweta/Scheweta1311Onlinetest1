@@ -20,6 +20,10 @@ public class BallotSection {
 		// TODO Auto-generated method stub
 		return tb.requestCount(c);
 	}
+
+	public void pressBallotButton() {
+		bb.pressBallotButton();		
+	}
 	
 	
 }

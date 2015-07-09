@@ -6,5 +6,13 @@ public class BallotButton extends Button{
 		super(0);
 		// TODO Auto-generated constructor stub
 	}
+	
+	public void pressBallotButton(){
+		this.status="press";
+	}
+	
+	public void releaseBallotButton(){
+		this.status="release";
+	}
 
 }
