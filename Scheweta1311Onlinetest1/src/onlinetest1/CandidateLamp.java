@@ -12,4 +12,8 @@ public class CandidateLamp extends Lamp{
 		
 	}
 
+	public void glowLamp() {
+		System.out.println("Red lamp on.");
+	}
+
 }

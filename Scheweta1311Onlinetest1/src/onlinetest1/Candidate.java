@@ -4,9 +4,11 @@ public class Candidate {
 
 	String name,symbol;
 	int id;
+	int count;
 	
 	public Candidate(int i) {
 		id = i;
+		count=0;
 	}
 
 	public String getName(){
@@ -19,6 +21,14 @@ public class Candidate {
 	
 	public int getID(){
 		return id;
+	}
+	
+	public int getCount(){
+		return count;
+	}
+	
+	public void incrCount(){
+		count++;
 	}
 	
 	public void setName(String nm){
