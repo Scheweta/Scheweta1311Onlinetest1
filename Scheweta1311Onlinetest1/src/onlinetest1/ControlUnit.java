@@ -6,7 +6,7 @@ public class ControlUnit {
 	CandidateSetSection css = new CandidateSetSection();
 	BallotSection bs = new BallotSection() ;
 	ResultSection rs = new ResultSection();
-	
+	PowerSwitch ps = new PowerSwitch();
 	
 	
 	public boolean permitVote(){
